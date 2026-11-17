@@ -1,9 +1,14 @@
 {
   "name": "revenue-scout",
   "displayName": "Revenue Scout",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Work with your Revenue Scout leads, evidence and reviewed sales tasks.",
   "author": { "name": "Akii Technologies, Ltd", "url": "https://revenuescout.ai" },
   "homepage": "https://revenuescout.ai/product/agents",
+  "privacyPolicyUrl": "https://revenuescout.ai/privacy",
+  "supportUrl": "https://revenuescout.ai/contact",
+  "documentationUrl": "https://revenuescout.ai/product/agents",
+  "termsOfServiceUrl": "https://revenuescout.ai/terms",
+  "repository": "https://github.com/akii-technologies/revenue-scout-plugins",
   "license": "LicenseRef-Proprietary"
 }

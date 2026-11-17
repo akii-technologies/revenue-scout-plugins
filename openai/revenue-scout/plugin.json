@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "revenue-scout",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Work with your Revenue Scout leads, evidence and reviewed sales tasks.",
   "author": {
     "name": "Akii Technologies, Ltd",
@@ -42,10 +42,10 @@
               "expected_behavior": "List only workspaceOptions returned by this connection. Ask for a selection when names are ambiguous. Do not start a search."
             },
             {
-              "description": "Read one retained qualified lead",
-              "prompt": "Show me one saved qualified lead for the connected review brand.",
+              "description": "Read one retained synthetic source record",
+              "prompt": "Show me one retained synthetic record for the connected review brand, including unassessed records.",
               "tools_triggered": "rs_read_capabilities, rs_read_prospects",
-              "expected_behavior": "Resolve the permitted brand and read with qualification qualified and pageSize 1. Return the saved lead with its available source link. Do not claim that a new search ran."
+              "expected_behavior": "Resolve the permitted brand and read with qualification any and pageSize 1. Return one clearly fictional retained record with its available source link and unassessed qualification. Do not claim that a new search or assessment ran."
             },
             {
               "description": "Explain available source evidence",
@@ -55,7 +55,7 @@
             },
             {
               "description": "Read a second retained result using bounded pagination",
-              "prompt": "Show the next saved qualified lead for this brand, one at a time.",
+              "prompt": "Show the next retained synthetic record for this brand, including unassessed records, one at a time.",
               "tools_triggered": "rs_read_prospects",
               "expected_behavior": "Use the signed cursor returned by the previous read with the same filters and a new request identity. Return the next saved result or accurately report that there is no next page."
             },
