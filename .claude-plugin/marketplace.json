@@ -1,0 +1,13 @@
+{
+  "name": "revenue-scout",
+  "owner": {
+    "name": "Akii Technologies, Ltd"
+  },
+  "plugins": [
+    {
+      "name": "revenue-scout",
+      "source": "./plugins/revenue-scout",
+      "description": "Work with your Revenue Scout leads and reviewed sales tasks."
+    }
+  ]
+}

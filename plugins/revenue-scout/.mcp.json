@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "revenue-scout": { "type": "http", "url": "https://revenuescout.ai/api/mcp" }
+  }
+}
