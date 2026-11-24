@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "revenue-scout",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Work with your Revenue Scout leads, evidence and reviewed sales tasks.",
   "author": {
     "name": "Akii Technologies, Ltd",
